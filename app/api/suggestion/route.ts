@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 export async function GET(request: Request) {
   // connect to microsoft azure function
   const response = await fetch(

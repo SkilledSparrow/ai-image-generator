@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 const fetchSuggestionFromChatGPT = () =>
   fetch("/api/suggestion", {
     cache: "no-store",

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import fetchImages from "@/lib/FetchImages";
 import fetchSuggestionFromChatGPT from "../lib/fetchSuggestionFromChatGPT";
 import React, { FormEvent, useState } from "react";
