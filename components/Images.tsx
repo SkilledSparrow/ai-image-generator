@@ -49,6 +49,7 @@ const Images = () => {
               </p>
             </div>
             <Image
+              unoptimized
               src={image.url}
               alt={image.name}
               height={800}

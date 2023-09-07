@@ -7,6 +7,7 @@ const Header = () => {
       {/* left */}
       <div className="flex space-x-2 items-center">
         <Image
+          unoptimized
           src="https://links.papareact.com/4t3"
           alt="logo"
           height={30}
